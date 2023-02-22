@@ -47,12 +47,14 @@ const MainBody = React.forwardRef(
             </a>
           </div>
           <div className="main-img">
-            <img src={img} className="rounded mx-auto d-block" alt="Profile Image"/>
+            <img src={img} className="rounded mx-auto d-block" alt="My info"/>
           </div>
         </Container>
       </Jumbotron>
     );
   }
 );
+
+//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
 
 export default MainBody;
