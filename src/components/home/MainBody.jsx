@@ -47,7 +47,7 @@ const MainBody = React.forwardRef(
             </a>
           </div>
           <div className="main-img">
-            <img src={img} className="rounded mx-auto d-block" />
+            <img src={img} className="rounded mx-auto d-block" alt="Profile Image"/>
           </div>
         </Container>
       </Jumbotron>
