@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: require('../assets/img/bg.jpg'),
   firstName: "Rahul",
   middleName: "",
   lastName: "Varal",
@@ -18,7 +18,7 @@ const mainBody = {
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/rahulvaral",
+      url: "https://www.facebook.com/rahul.varal.338",
     },
     {
       image: "fa-instagram",
@@ -26,7 +26,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/rahulvaral/",
+      url: "https://www.linkedin.com/in/rahul-varal-a7b0b616a/",
     },
     {
       image: "fa-twitter",

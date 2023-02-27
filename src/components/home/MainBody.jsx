@@ -10,8 +10,9 @@ const MainBody = React.forwardRef(
         fluid
         id="home"
         style={{
-          background: `linear-gradient(136deg,${gradient})`,
-          backgroundSize: "1200% 1200%",
+          background: `url('${gradient}')`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "auto",
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
@@ -47,7 +48,7 @@ const MainBody = React.forwardRef(
             </a>
           </div>
           <div className="main-img">
-            <img src={img} className="rounded mx-auto d-block" alt="My info"/>
+            <img src={img} className="rounded mx-auto d-block" alt="My info" />
           </div>
         </Container>
       </Jumbotron>
